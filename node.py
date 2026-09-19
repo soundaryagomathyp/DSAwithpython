@@ -2,8 +2,8 @@
 class Node:
     def __init__(self,data):
         self.data=data
-        self.right=none
-        self.left=none
+        self.right=None
+        self.left=None
 root=Node(10)
 root.left=Node(5)
 root.right=Node(10)
