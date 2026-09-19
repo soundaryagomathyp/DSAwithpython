@@ -1,1 +1,13 @@
 #node created
+class Node:
+    def__init__(self,data):
+        self.data=data
+        self.right=none
+        self.left=none
+root=Node(10)
+root.left=Node(5)
+root.right=Node(10)
+print(root.data)
+print(root.left.data)
+print(root.right.data)
+
