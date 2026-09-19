@@ -1,6 +1,6 @@
 #node created
 class Node:
-    def__init__(self,data):
+    def __init__(self,data):
         self.data=data
         self.right=none
         self.left=none
